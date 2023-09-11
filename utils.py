@@ -1,15 +1,26 @@
+import numpy
+
 class utils:
     def reversed(num):
-        if(num < 0):
-            reversed_num = abs(num)
-        else:
-            reversed_num = -num
+        
+        if(num.isnumeric() == True ):
 
-        return reversed_num
+            if(num < 0):
+                reversed_num = abs(num)
+            else:
+                reversed_num = -num
+
+            return reversed_num
+
+        else: print("Input is not a int number")
 
 
     def formatter(num):
-        binary = bin(num)
-        octal = oct(num)
+        if(num.isnumeric() == True):
 
-        return binary, octal
+            binary = bin(num)
+            octal = oct(num)
+
+            return binary, octal
+        else: print("Input is not a int number")
+
