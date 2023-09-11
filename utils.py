@@ -6,9 +6,10 @@ class utils:
         if(num.isnumeric() == True ):
 
             if(num < 0):
-                reversed_num = abs(num)
+                num = abs(num)
+                reversed_num = - int(str(num)[::-1])
             else:
-                reversed_num = -num
+                reversed_num = int(str(num)[::-1])
 
             return reversed_num
 
@@ -23,4 +24,3 @@ class utils:
 
             return binary, octal
         else: print("Input is not a int number")
-
