@@ -3,7 +3,7 @@ import numpy
 class utils:
     def reversed(num):
         
-        if(num.isnumeric() == True ):
+        if(type(num) == int):
 
             if(num < 0):
                 num = abs(num)
