@@ -7,3 +7,6 @@ Activity 2
 
 Activity 3
 <img width="960" alt="image" src="https://github.com/Meining89/ECE444-F2023-Assignment1/assets/97919828/4148e386-3eff-48c6-99ae-3d6cf5615e65">
+
+Activity 4
+<img width="1254" alt="image" src="https://github.com/Meining89/ECE444-F2023-Assignment1/assets/97919828/c4410597-d31a-4997-92a9-284470a0b75f">
